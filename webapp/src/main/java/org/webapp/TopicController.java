@@ -2,6 +2,7 @@ package org.webapp;
 
 import java.util.List;
 
+import org.model.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
