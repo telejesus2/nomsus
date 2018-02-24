@@ -3,6 +3,7 @@ package org.webapp;
 import java.util.List;
 import java.util.ArrayList;
 
+import org.model.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
