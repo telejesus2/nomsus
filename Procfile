@@ -1,0 +1,1 @@
+web: java -jar webapp/target/webapp-0.0.1-SNAPSHOT.jar
