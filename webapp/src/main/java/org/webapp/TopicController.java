@@ -19,6 +19,10 @@ public class TopicController {
 	
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopics() {
+		Topic t= new Topic("noemie",10);
+		topicService.addTopic(t);
+		t= new Topic("jesus",10);
+		topicService.addTopic(t);
 		return topicService.getAllTopics();
 	}
 	
